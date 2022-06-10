@@ -28,27 +28,21 @@ void rotateMatrix(vector<vector<int>> &mat, int n, int m)
         }
         
         col--;
-        
-        if(r <= row)
+                 
+        for(int i = col; i >= c; --i)
         {
-            for(int i = col; i >= c; --i)
-            {
-                curr = mat[row][i];
-                mat[row][i] = prev;
-                prev = curr;
-            }
+            curr = mat[row][i];
+            mat[row][i] = prev;
+            prev = curr;
         }
         
         row--;
         
-        if(c <= col)
+        for(int i = row; i >= r; --i)
         {
-            for(int i = row; i >= r; --i)
-            {
-                curr = mat[i][c];
-                mat[i][c] = prev;
-                prev = curr;
-            }
+            curr = mat[i][c];
+            mat[i][c] = prev;
+            prev = curr;
         }
         
         c++;
