@@ -33,5 +33,26 @@ int uniquePaths(int i, int j, vector<vector<int>>& mat)
 // using combinatorics
 
 /*
+#include <bits/stdc++.h> 
 
+int combinations(int steps, int right);
+long long fact(int n);
+
+int uniquePaths(int m, int n) {
+	// Write your code here.
+    int steps = m + n - 2;
+    int right = n - 1;
+    
+    return combinations(steps, right);
+}
+
+int combinations(int n, int r)
+{
+    double res = 1;
+    
+    for (int i = 1; i <= r; i++)
+        res = res * (n - r + i) / i;
+    
+    return (int)res;
+}
 */
