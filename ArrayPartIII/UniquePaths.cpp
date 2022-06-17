@@ -29,3 +29,9 @@ int uniquePaths(int i, int j, vector<vector<int>>& mat)
     
     return count;
 }
+
+// using combinatorics
+
+/*
+
+*/
