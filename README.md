@@ -6,7 +6,7 @@ SDE Sheet contains very handily crafted and picked top coding interview question
 
 <h2>Why trust the Striver SDE sheet? </h2>
 <p>
-This is sheet is prepared by Raj Vikramaditya A.K.A Striver, Candidate Master, 6*, who has bagged offers from Google Warsaw, Facebook London, Media.net(Directi). He has also interned at Amazon India. He is also one of the top educators at Unacademy and was at GeeksforGeeks as well. Not only this, hundreds of students cleared interviews of top companies with the help of this sheet. What are you waiting for?</p>
+This is sheet is prepared by Raj Vikramaditya A.K.A Striver, Candidate Master, 6*, who has bagged offers from Google Warsaw, Facebook London, Media.net(Directi). He has also interned at Amazon India. He is also one of the top educators at Unacademy and was at GeeksforGeeks as well. Not only this, hundreds of students cleared interviews of top companies with the help of this sheet. What are you waiting for?</p><br>
 
 
 <img align="center" style="width: 400px; height: 225px" src="https://takeuforward.org/wp-content/uploads/2022/01/Strivers-SDE-Sheet-1-scaled.webp"> &nbsp;     [`Accept Challenge`](https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/)
