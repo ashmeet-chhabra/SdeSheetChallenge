@@ -25,3 +25,39 @@ long long lengthOfLongestConsecutiveSequence(vector<int> &arr, int n) {
     
     return ans;
 }
+
+/*
+alternate solution
+
+class Solution {
+public:
+    int longestConsecutive(vector<int>& nums) {
+        int n = nums.size();
+        
+        set<int> mp;
+        int max = 0, count;
+        
+        for(int i = 0; i < n; ++i)
+            mp.insert(nums[i]);
+        
+        for(int i = 0; i < n; ++i)
+        {
+            int num = nums[i];
+            if(!mp.count(num - 1))
+            {
+                int currentNum = num;
+                count = 1;
+                
+                while(mp.count(currentNum + 1))
+                {
+                    count++;
+                    currentNum++;
+                }
+                max = max > count ? max : count;
+            }
+        }
+        
+        return max;
+    }
+};
+*/
