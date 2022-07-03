@@ -10,5 +10,7 @@
 //     return mp.size();
 // }
 
-// optimized
+// optimized (making use of the array being sorted)
+
+
 
