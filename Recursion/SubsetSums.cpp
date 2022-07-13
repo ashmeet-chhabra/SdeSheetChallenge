@@ -22,6 +22,8 @@
 //     return ans;
 // }
 
+// with recursion
+
 void calculate(vector<int>& num, int i, int sum, vector<int>& ans);
 
 vector<int> subsetSum(vector<int> &num)
